@@ -1,8 +1,45 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{E53BD5E9-B3F6-49C1-9B2E-9718BF4F3662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenisApp.Canchas.Application", "services\Canchas\TenisApp.Canchas.Application\TenisApp.Canchas.Application.csproj", "{4A5BBEB8-EECC-4E92-B192-267D72DBFA09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Canchas", "Canchas", "{8253E986-E508-4FA8-9606-8D8BDCE3325E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenisApp.Canchas.Domain", "services\Canchas\TenisApp.Canchas.Domain\TenisApp.Canchas.Domain.csproj", "{DCB76850-294E-410D-A111-6550609EB1A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenisApp.Canchas.Persistence", "services\Canchas\TenisApp.Canchas.Persistence\TenisApp.Canchas.Persistence.csproj", "{107588ED-BA04-478F-A75F-3C6B9C0DA463}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenisApp.Canchas.Contracts", "services\Canchas\TenisApp.Canchas.Contracts\TenisApp.Canchas.Contracts.csproj", "{B7AFE0E6-71DD-4433-A904-AEE14CC71145}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8253E986-E508-4FA8-9606-8D8BDCE3325E} = {E53BD5E9-B3F6-49C1-9B2E-9718BF4F3662}
+		{4A5BBEB8-EECC-4E92-B192-267D72DBFA09} = {8253E986-E508-4FA8-9606-8D8BDCE3325E}
+		{DCB76850-294E-410D-A111-6550609EB1A1} = {8253E986-E508-4FA8-9606-8D8BDCE3325E}
+		{107588ED-BA04-478F-A75F-3C6B9C0DA463} = {8253E986-E508-4FA8-9606-8D8BDCE3325E}
+		{B7AFE0E6-71DD-4433-A904-AEE14CC71145} = {8253E986-E508-4FA8-9606-8D8BDCE3325E}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A5BBEB8-EECC-4E92-B192-267D72DBFA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A5BBEB8-EECC-4E92-B192-267D72DBFA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A5BBEB8-EECC-4E92-B192-267D72DBFA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A5BBEB8-EECC-4E92-B192-267D72DBFA09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCB76850-294E-410D-A111-6550609EB1A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCB76850-294E-410D-A111-6550609EB1A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCB76850-294E-410D-A111-6550609EB1A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCB76850-294E-410D-A111-6550609EB1A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{107588ED-BA04-478F-A75F-3C6B9C0DA463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{107588ED-BA04-478F-A75F-3C6B9C0DA463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{107588ED-BA04-478F-A75F-3C6B9C0DA463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{107588ED-BA04-478F-A75F-3C6B9C0DA463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7AFE0E6-71DD-4433-A904-AEE14CC71145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7AFE0E6-71DD-4433-A904-AEE14CC71145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7AFE0E6-71DD-4433-A904-AEE14CC71145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7AFE0E6-71DD-4433-A904-AEE14CC71145}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
