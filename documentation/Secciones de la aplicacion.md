@@ -41,4 +41,3 @@ Deberia permitir hacer operaciones basicas con turnos.
 - Cancha del turno.
 
 Se debe poder reservar un turno fijo. Ejemplo `Todos los lunes, de 17 a 19hs`
-
