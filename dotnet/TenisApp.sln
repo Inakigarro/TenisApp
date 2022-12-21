@@ -5,12 +5,20 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenisApp.Canchas.Application", "services\Canchas\TenisApp.Canchas.Application\TenisApp.Canchas.Application.csproj", "{4A5BBEB8-EECC-4E92-B192-267D72DBFA09}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Canchas", "Canchas", "{8253E986-E508-4FA8-9606-8D8BDCE3325E}"
+	ProjectSection(SolutionItems) = preProject
+		services\Canchas\Dockerfile = services\Canchas\Dockerfile
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenisApp.Canchas.Domain", "services\Canchas\TenisApp.Canchas.Domain\TenisApp.Canchas.Domain.csproj", "{DCB76850-294E-410D-A111-6550609EB1A1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenisApp.Canchas.Persistence", "services\Canchas\TenisApp.Canchas.Persistence\TenisApp.Canchas.Persistence.csproj", "{107588ED-BA04-478F-A75F-3C6B9C0DA463}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenisApp.Canchas.Contracts", "services\Canchas\TenisApp.Canchas.Contracts\TenisApp.Canchas.Contracts.csproj", "{B7AFE0E6-71DD-4433-A904-AEE14CC71145}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{53A19627-F9DE-4E72-AE21-2C2BB30CE268}"
+	ProjectSection(SolutionItems) = preProject
+		docker\docker-compose.yml = docker\docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
