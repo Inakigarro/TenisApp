@@ -1,0 +1,34 @@
+<ng-container [ngSwitch]="buttonType">
+    <button *ngSwitchCase="'stroked'"
+            mat-stroked-button
+            (click)="executed.emit(label)">
+        <mat-icon *ngIf="icon">
+            {{icon}}
+        </mat-icon>
+        <span *ngIf="label">{{label}}</span>
+    </button>
+    <button *ngSwitchCase="'raised'"
+            mat-raised-button
+            (click)="executed.emit(label)">
+        <mat-icon *ngIf="icon">
+            {{icon}}
+        </mat-icon>
+        <span *ngIf="label">{{label}}</span>
+    </button>
+    <button *ngSwitchCase="'fab'"
+            mat-fab
+            (click)="executed.emit(label)">
+        <mat-icon *ngIf="icon">
+            {{icon}}
+        </mat-icon>
+        <span *ngIf="label">{{label}}</span>
+    </button>
+    <button *ngSwitchCase="'miniFab'"
+            mat-mini-fab
+            (click)="executed.emit(label)">
+        <mat-icon *ngIf="icon">
+            {{icon}}
+        </mat-icon>
+        <span *ngIf="label">{{label}}</span>
+    </button>
+</ng-container>
