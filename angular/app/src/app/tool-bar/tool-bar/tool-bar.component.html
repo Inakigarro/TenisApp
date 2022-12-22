@@ -1,0 +1,45 @@
+<mat-toolbar>
+    <mat-toolbar-row>
+        <ng-container *ngIf="!this.menuActive; else activeMenu">
+            <button mat-icon-button (click)="changeStateMenu()">
+                <mat-icon>menu</mat-icon>
+            </button>
+        </ng-container>
+        <span>Tenis App</span>
+        <span class="toolbarSpace"></span>
+        <button mat-mini-fab>
+            <mat-icon>person</mat-icon>
+        </button>
+        <ng-template #activeMenu>
+            <button mat-icon-button (click)="changeStateMenu()">
+                <mat-icon>close</mat-icon>
+            </button>
+        </ng-template>
+    </mat-toolbar-row>
+    <mat-toolbar-row class="toolBar" *ngIf="this.menuActive">
+        <button mat-raised-button>
+            <mat-icon>home</mat-icon>
+            <span>Home</span>
+        </button>
+        <button mat-raised-button>
+            <mat-icon>theaters</mat-icon>
+            <span>Canchas</span>
+        </button>
+        <button mat-raised-button>
+            <mat-icon>sports_tennis</mat-icon>
+            <span>Clases</span>
+        </button>
+        <button mat-raised-button>
+            <mat-icon>shopping_cart</mat-icon>
+            <span>Tienda</span>
+        </button>
+        <button mat-raised-button>
+            <mat-icon>shopping_cart</mat-icon>
+            <span>Tienda</span>
+        </button>
+        <button mat-raised-button>
+            <mat-icon>call</mat-icon>
+            <span>Contactanos</span>
+        </button>
+    </mat-toolbar-row>
+</mat-toolbar>

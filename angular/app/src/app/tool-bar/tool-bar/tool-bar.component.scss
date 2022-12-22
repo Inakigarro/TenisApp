@@ -1,0 +1,21 @@
+.toolbarSpace{
+    flex: 1 1 auto;
+}
+
+.toolbarButton{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.toolBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.buttonIcon{
+    margin: auto;
+    height: 30;
+    width: 30;
+}
